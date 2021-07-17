@@ -1,0 +1,26 @@
+{
+  "name": "karser/mautic-cold-email-outreach-bundle",
+  "description": "Send follow-ups in the same email thread for any A/B test variation",
+  "type": "mautic-plugin",
+  "keywords": [
+    "mautic",
+    "mautic-plugin",
+    "mautic-integration",
+    "cold-emails",
+    "cold-outreach",
+    "mautic-marketing-automation",
+    "plugin",
+    "integration"
+  ],
+  "require": {
+    "php": ">=7.2",
+    "mautic/composer-plugin": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitrii Poddubnyi",
+      "homepage": "https://github.com/karser"
+    }
+  ]
+}
