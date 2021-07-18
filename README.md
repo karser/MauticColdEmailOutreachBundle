@@ -14,6 +14,7 @@ That's where the Mautic Cold Email Outreach Plugin comes in!
 - The subject line will start with "Re:". For example: "Re: Hello!"
 - It will not change the subject if the initial email is not found. 
 - This applies at the campaign level. It will look for the first sent email in the campaign the follow-up belongs to.
+- It also supports tokens in subject, e.g:  "Hi {contactfield=firstname|there}"
 
 
 ## Installation

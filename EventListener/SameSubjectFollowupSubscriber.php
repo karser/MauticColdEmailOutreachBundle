@@ -47,7 +47,7 @@ class SameSubjectFollowupSubscriber implements EventSubscriberInterface
     {
         return [
             CampaignEvents::CAMPAIGN_ON_TRIGGER => ['onCampaignTriggered', 0],
-            EmailEvents::EMAIL_ON_SEND => ['onEmailSend', 0],
+            EmailEvents::EMAIL_ON_SEND => ['onEmailSend', 255],
         ];
     }
 
